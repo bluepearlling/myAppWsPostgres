@@ -1,0 +1,18 @@
+package postgresWS;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+@SpringBootApplication
+@EnableJpaRepositories
+
+public class postgresWS
+{
+
+    public static void main(String[] args)
+    {
+
+        SpringApplication.run(postgresWS.class);
+    }
+}
